@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import '../common/scss/base.scss';
+html {
+    @include root-font-size();    
+}
+
+.g-hd{
+    
+    width: 100%;
+    box-sizing: border-box;
+    .hd{        
+        @include aspect-ratio($aspectX:16,$aspectY:9);
+        .hd-content{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+    }
+
+    nav{
+        width: 100%;
+        font-size: 24px;
+        box-sizing: border-box;
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            .icon{
+                margin-bottom: 12px;
+                display: block;
+                width: 120px;
+                height: 120px;
+                line-height: 120px;
+                text-align: center;
+                @include border($color:#333);
+                &.f-border-radius {
+                    @include border(
+                        $color: #333,
+                        $radius: (10px)
+                    );
+                }
+            }
+            .text{
+               
+                text-align: center;
+                
+            }
+        }
+    }
+}
+
+.g-mn{
+    margin-top: 60px;
+    .single-line{
+        width: 100%;
+        text-align: center;
+        @include border-single($color:#333);
+    }
+
+    .mult-line{
+        margin: 60px auto;
+        width: 640px;
+        height: 90px;
+        text-align: center;
+        @include border-multiple($color:#333);
+    }
+
+    .text-overflow-single{
+        font-size: 32px;
+        @include text-overflow();
+    }
+    .text-overflow-mult{
+        margin-top: 60px;
+        font-size: 32px;
+        line-height: 1.25;
+        @include text-overflow($line:3);
+    }
+}
+

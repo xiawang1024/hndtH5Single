@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /mnt/c/Program Files (x86)/Yarn/bin/yarn.js init
+
+PATH: 
+  /home/xiawang1024/.autojump/bin:/home/xiawang1024/.autojump/bin:/home/xiawang1024/.oh-my-zsh/custom/plugins/git-open:/home/xiawang1024/.vscode-server/bin/ff915844119ce9485abfe8aa9076ec76b5300ddd/bin:/home/xiawang1024/.autojump/bin:/home/xiawang1024/.autojump/bin:/home/xiawang1024/.oh-my-zsh/custom/plugins/git-open:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Docker/Docker/Resources/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/d/Program Files/Java/apache-maven-3.6.0/bin:/mnt/d/Program Files/Java/jdk1.8.0_201/bin:/mnt/d/Program Files/Java/jdk1.8.0_201/jre/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Users/DELL/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/h/ffmpeg/ffmpeg-20190729-43891ea-win64-static/bin:/mnt/d/src/flutter/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/MongoDB/Server/4.0/bin:/mnt/c/Users/DELL/.windows-build-tools/python27/:/mnt/c/Users/DELL/AppData/Roaming/npm/node_modules/windows-build-tools/node_modules/.bin:/mnt/c/Users/DELL/AppData/Roaming/npm/node_modules/.bin:/mnt/c/cmder/bin:/mnt/c/cmder/vendor/bin:/mnt/c/cmder/vendor/conemu-maximus5/ConEmu/Scripts:/mnt/c/cmder/vendor/conemu-maximus5:/mnt/c/cmder/vendor/conemu-maximus5/ConEmu:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/IntelliJ IDEA Community Edition 2018.3.3/bin:/mnt/d/Program Files/JetBrains/WebStorm 2018.3.3/bin:/mnt/c/cmder:/mnt/c/Users/DELL/AppData/Local/Programs/Fiddler:/mnt/c/Program Files/JetBrains/WebStorm 2019.1.3/bin:/mnt/c/Users/DELL/AppData/Roaming/npm:/mnt/c/Users/DELL/AppData/Local/Yarn/bin:/mnt/c/Users/DELL/.dotnet/tools:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/mnt/c/Program Files (x86)/Yarn/lib/cli.js:136987:13)
+      at Interface.emit (events.js:311:20)
+      at Interface._ttyWrite (readline.js:893:16)
+      at ReadStream.onkeypress (readline.js:198:10)
+      at ReadStream.emit (events.js:311:20)
+      at emitKeys (internal/readline/utils.js:438:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1160:36)
+      at ReadStream.emit (events.js:311:20)
+      at addChunk (_stream_readable.js:294:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
