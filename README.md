@@ -14,5 +14,20 @@
 * CSS3动画相关：animate.css scrollreveal
 * 全屏滚动：fullpage.js
 
+## 快速开始
+
+### 安装依赖
+```
+$ npm install
+```
+### 开发
+```
+$ npm run dev
+```
+### 打包
+```
+$ npm run build
+```
+
 ## 相关链接
 [Parcel](https://parceljs.bootcss.com/)
